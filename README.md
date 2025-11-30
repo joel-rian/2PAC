@@ -41,4 +41,4 @@ https://joel-rian.github.io/2PAC/
 
 ---
 *Desenvolvido por Yerijhon Rian*
-=======
+
