@@ -4,6 +4,7 @@
 
 Desenvolvimento de uma página web dedicada à biografia e legado do artista Tupac Shakur (2Pac). O projeto demonstra a habilidade de estruturar conteúdo informativo e visualmente rico de forma semântica e acessível.
 
+<<<<<<< HEAD
 ## 🎯 Desafio
 
 O desafio foi organizar uma grande quantidade de informações biográficas, discográficas e de impacto cultural de forma clara e envolvente, garantindo que a estrutura HTML suportasse a hierarquia do conteúdo e fosse facilmente navegável.
@@ -40,3 +41,4 @@ https://joel-rian.github.io/2PAC/
 
 ---
 *Desenvolvido por Yerijhon Rian*
+=======
