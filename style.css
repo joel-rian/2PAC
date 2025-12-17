@@ -1,24 +1,27 @@
-/* Estilos básicos para o perfil de Tupac Shakur */
+/* ============================================================
+   ESTILOS BASE – PERFIL TUPAC SHAKUR
+============================================================ */
 
-
+/* ================= RESET BÁSICO ================= */
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0,1;
+    font-family: Arial, sans-serif;
+    margin: 0;
     padding: 0;
+    width: 100%;
+    height: auto;
+
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
-    width: 100%;
-    height: auto;
 }
 
-
+/* ================= HEADER ================= */
 header {
     background-color: #1a1a1a;
-    color: #fff;
+    color: #ffffff;
     padding: 20px 0;
     text-align: center;
-    border-bottom: 5px solid #abdecb; 
+    border-bottom: 5px solid #abdecb;
 }
 
 header h1 {
@@ -27,30 +30,32 @@ header h1 {
     letter-spacing: 2px;
 }
 
-
+/* ================= CONTEÚDO PRINCIPAL ================= */
 main {
     max-width: 900px;
     margin: 20px auto;
     padding: 0 20px;
 }
 
+/* ================= SEÇÕES ================= */
 section {
     background-color: #ffffff;
     padding: 20px;
     margin-bottom: 30px;
+
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    
 }
 
 section h2 {
-    color: #000000;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 10px;
     margin-top: 0;
+    padding-bottom: 10px;
+
+    color: #000000;
+    border-bottom: 2px solid #eeeeee;
 }
 
-
+/* ================= FIGURAS ================= */
 figure {
     margin: 15px 0;
     text-align: center;
@@ -59,17 +64,18 @@ figure {
 figure img {
     max-width: 100%;
     height: auto;
+
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 figcaption {
-    font-style: italic;
-    color: #777;
     margin-top: 5px;
+    font-style: italic;
+    color: #777777;
 }
 
-
+/* ================= LISTA DE DADOS (DL) ================= */
 dl {
     display: grid;
     grid-template-columns: 150px 1fr;
@@ -86,7 +92,7 @@ dd {
     margin-left: 0;
 }
 
-
+/* ================= LISTAS ORDENADAS (FILMES / MÚSICAS) ================= */
 ol {
     list-style: none;
     padding: 0;
@@ -94,8 +100,8 @@ ol {
 
 ol li {
     margin-bottom: 20px;
-    border-bottom: 1px dashed #ddd;
     padding-bottom: 10px;
+    border-bottom: 1px dashed #dddddd;
 }
 
 ol li:last-child {
@@ -111,33 +117,36 @@ ol li figure {
 ol li img {
     width: 80px;
     height: 80px;
-    object-fit: cover;
     margin-right: 15px;
+    object-fit: cover;
 }
 
 ol li figcaption {
     font-style: normal;
-    color: #333;
+    color: #333333;
     font-size: 1.1em;
 }
 
+/* ================= LINKS ================= */
 ol li a {
     color: #3498db;
-    text-decoration: none;
     font-weight: bold;
+    text-decoration: none;
 }
 
 ol li a:hover {
-    text-decoration: underline;
     color: #2980b9;
+    text-decoration: underline;
 }
 
-
+/* ================= FOOTER ================= */
 footer {
-    text-align: center;
-    padding: 15px 0;
-    background-color: #1a1a1a;
-    color: #fff;
-    font-size: 0.9em;
     margin-top: 20px;
+    padding: 15px 0;
+
+    text-align: center;
+    font-size: 0.9em;
+
+    background-color: #1a1a1a;
+    color: #ffffff;
 }
